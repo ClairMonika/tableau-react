@@ -1,0 +1,34 @@
+import React, { useState, useEffect, useRef } from "react";
+const { tableau } = window;
+
+function Sample(props) {
+  // const [url] = useState(
+  //   "https://prod-useast-a.online.tableau.com/t/clairmonika/views/dashboard1/Sheet1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link"
+  // );
+  const [url] = useState(
+    "https://prod-useast-a.online.tableau.com/t/clairtest/views/SampleDashboard1/Dashboard1/6bf171d9-2c15-4aea-93c6-a3dc76ae361c/d36d0411-2c22-46e8-9d73-06e35c84b7d7?:display_count=n&:showVizHome=n&:origin=viz_share_link"
+  );
+  const ref = useRef(null);
+  const options = {
+    "hideToolbar": true,
+    "height":"900px",
+    "width":"1300px",
+  }
+  const initViz = () => {
+    new tableau.Viz(ref.current, url, options);
+  };
+
+  useEffect(initViz, []);
+
+  return (
+    <div style={setVizStyle} ref={ref} >
+    </div>
+  );
+}
+
+const setVizStyle = {
+  width: "1200px",
+  height: "500px",
+};
+
+export default Sample;
