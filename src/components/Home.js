@@ -8,12 +8,12 @@ export default function Home() {
     <div>
       <img src={logo} alt="tableauImage" />
       <h1>React Playground for Tableau JavaScript API</h1>
-      <p>by Andre de Vries</p>
-      <p style={indicatorStyle}>👇</p>
+      {/* <p>by Andre de Vries</p> */}
+      {/* <p style={indicatorStyle}>👇</p>
       <a href="https://github.com/andre347/tableau-react-jsapi" target="_blank">
         {" "}
         <img id="githubLink" src={gitHubLogo} style={githubStyle} alt="github logo" />
-      </a>
+      </a> */}
     </div>
   );
 }
