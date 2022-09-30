@@ -15,12 +15,12 @@ function Header() {
             <li>
               <Link to="/sample">Custom Dashboard</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/sample2">Single Sheet</Link>
             </li>
             <li>
               <Link to="/sample3">Sample Dashboard</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link
                 to={{
