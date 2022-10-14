@@ -2,9 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 const { tableau } = window;
 
 function Sample(props) {
-  // const [url] = useState(
-  //   "https://prod-useast-a.online.tableau.com/t/clairmonika/views/dashboard1/Sheet1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link"
-  // );
+ 
   const [url] = useState(
     "https://prod-useast-a.online.tableau.com/t/clairtest/views/Superstore/Customers?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link"
   );

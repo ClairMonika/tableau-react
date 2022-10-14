@@ -21,39 +21,6 @@ function Header() {
             <li>
               <Link to="/sample3">Sample Dashboard</Link>
             </li> */}
-            {/* <li>
-              <Link
-                to={{
-                  pathname: "/embed/",
-                  state: {
-                    title: "Basic Embed"
-                  }
-                }}
-              >
-                Basic Embed
-              </Link>
-            </li>
-            <li>
-              <Link to="/dynamic-load">Dynamic Load</Link>
-            </li>
-            <li>
-              <Link to="/export-pdf">Export PDF</Link>
-            </li>
-            <li>
-              <Link to="/filter">Filter</Link>
-            </li>
-            <li>
-              <Link to="/get-data">Get Data</Link>
-            </li>
-            <li>
-              <Link to="/resize">Resize</Link>
-            </li>
-            <li>
-              <Link to="/events">Events</Link>
-            </li>
-            <li>
-              <Link to="/animation">Animation</Link>
-            </li> */}
           </ul>
         </nav>
 
