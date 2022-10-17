@@ -4,7 +4,7 @@ const { tableau } = window;
 function Sample(props) {
   
   const [url] = useState(
-    "https://prod-apnortheast-a.online.tableau.com/t/samplepoc/views/Redshift_balance_sheet/Dashboard1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link"
+    "https://10ax.online.tableau.com/t/clairtableau/views/sheet1/Dashboard1"
   );
   const ref = useRef(null);
   const options = {
